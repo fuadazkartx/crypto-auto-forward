@@ -1,0 +1,20 @@
+{
+  "name": "azkauserbot",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main"
+  },
+  "engines": {
+    "node": "16.9.1"
+  },
+  "keywords": [
+    "azkauserbot"
+  ],
+  "author": "azkadev",
+  "license": "ISC",
+  "dependencies": {
+    "tdl-lib": "^0.0.28"
+  }
+}
