@@ -1,1 +1,2 @@
-worker: node client
+worker: node main
+
