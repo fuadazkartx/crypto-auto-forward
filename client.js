@@ -17,7 +17,7 @@ var client = {
     }
 };
 
-var getAdminsUserId = String(process.admins_user_id ?? "null").split(",");
+var getAdminsUserId = String(process.env.admins_user_id ?? "null").split(",");
 for (var index = 0; index < getAdminsUserId.length; index++) {
     var element = getAdminsUserId[index];
     if (RegExp("^-?[0-9]+$", "i").exec(element)) {
